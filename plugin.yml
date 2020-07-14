@@ -1,0 +1,17 @@
+name: ServerControl
+api: [3.0.0]
+main: LaithYT\ServerControl\Main
+author: LaithYT
+version: 1.0.0
+description: Plugin Made By LaithYT
+
+commands:
+ sc:
+  description: "ServerControl Command"
+  usage: "/sc"
+  permission: sc.cmd
+  
+permissions:
+ sc.cmd:
+  description: "ServerControl Perm"
+  defualt: op
