@@ -10,8 +10,3 @@ commands:
   description: "ServerControl Command"
   usage: "/sc"
   permission: sc.cmd
-  
-permissions:
- sc.cmd:
-  description: "ServerControl Perm"
-  defualt: op
